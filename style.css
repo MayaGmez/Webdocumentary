@@ -1,0 +1,274 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.goToIndex {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Poppins;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+
+}
+
+.Title{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Poppins;
+    /* text-transform: uppercase; */
+    color: white;
+    text-align: right;
+    font-weight: 500;
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-decoration: none;
+     font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: blanchedalmond;
+}
+
+
+
+#name {
+
+    position: absolute;
+    top: 20%;
+    /* left: 30%; */
+    right: -20%;
+    transform: translate(-50%, -50%);
+    font-family: Poppins;
+    /* text-transform: uppercase; */
+    color: white;
+    text-align: right;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.section2 {
+
+    background-image: url("Pictures/pic.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.6;
+
+    height: 700px;
+    width: 100%;
+    position: relative;
+
+
+
+}
+
+#quote {
+
+    font-size: 100px;
+    font-family: Poppins;
+    /* text-transform: uppercase; */
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+    color: white;
+    text-align: right;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+#quotationmarks {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: orange;
+    /*position: absolute;
+    top: 20%;
+    left: 40%;*/
+}
+
+.background {
+    background-image: url("Pictures/pic2.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    width: 100%;
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+.backgroundEvents {
+    background-image: url("Pictures/pic2.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    width: 100%;
+
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+
+.backgroundRectangle {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.2);
+    padding: 30px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.backgroundRectangleEvents {
+    position: absolute;
+    top: 60%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.2);
+    padding: 30px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.mainHeader {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.email {
+    margin-top: -30px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+.innerRectangle {
+    background-color: rgba(255,255,255,0.3);
+    padding: 5px 5px 80px 5px;
+}
+
+.text {
+    color: black;
+    font-size: 14px;
+    
+}
+
+
+.circle {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    
+}
+
+.circleEvents {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    
+}
+
+.socialIcon {
+    color: white;
+    margin: auto;
+    font-size: 35px;
+    padding: 25px 30px;
+}
+
+#circle2 {
+    margin-top: 100px;
+}
+
+#circle3 {
+    margin-top: 200px;
+}
+
+#circle4 {
+    margin-top: 300px;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    
+    padding: 20px;
+}
+
+.button {
+    position: absolute;
+   
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+}
+
+table {
+    
+}
+
+.innerHeading {
+    color: white;
+    padding-bottom: 10px; 
+    padding-top: 10px;
+}
+
+.firstColumn {
+    width: 100px;
+}
+
+.secondColumn {
+    width: 200px;
+}
+
+.thirdColumn {
+    width: 40px;
+}
+
+footer{
+    background-color: rosybrown;
+    height: 90px;
+    text-align: center;
+    font-size: 17px;
+    
+}
+
+footer p{
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 20px;
+    
+}
+
+
+
+

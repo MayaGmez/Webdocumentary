@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<script type="text/javascript" src="jquery.vide.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+
+
+</head>
+
+<body data-vide-bg="Video/waves2">
+    <div class="container">
+       <a href="index.html" class="Title">Leunbach</a>
+        </div>
+        
+
+<iframe clas="music" width="256px" height="350px" src="Audio/waves.mp3" frameborder="0" allowfullscreen></iframe>
+    
+</body>
+
+<script>$(function(){
+  $('a').delegate('span', 'mouseenter mouseleave', function(e){
+    
+    var span = $(this);
+    
+    if (e.type === 'mouseenter'){
+      span.not(':animated').animate({ fontSize: '50px' });
+    }
+    else if (e.type === 'mouseleave'){
+      span.animate({ fontSize: '70px' });
+    }
+  });
+  
+  var newText = '',
+		  h1 = $('a').text(),
+		  len = h1.length;
+
+	for (var i = 0; i < len; i++){
+		newText += '<span>' + h1.charAt(i) + '</span>';
+}
+	$('a').html(newText);	
+});</script>
+</html>
+
